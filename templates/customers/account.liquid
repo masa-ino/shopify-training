@@ -1,1 +1,8 @@
-<!-- /templates/customers/account.liquid -->
+{% section 'account-header' %}
+
+<div class="mt-5 text-center">
+  <p>名前：{{customer.name}}</p>
+  <p>メールアドレス：{{customer.email}}</p>
+  <a href="/" class="d-block">ホームへ</a>
+  <a href="/account/logout">ログアウト</a>
+</div>
